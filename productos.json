@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Auriculares Bluetooth",
+    "precio": 25,
+    "imagen": "https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA",
+    "descripcion": "Sonido estéreo y conexión estable.",
+    "mensaje": "Hola, estoy interesado en los auriculares Bluetooth"
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse inalámbrico",
+    "precio": 12,
+    "imagen": "https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA",
+    "descripcion": "Cómodo, diseño ergonómico.",
+    "mensaje": "Hola, me gustaría consultar sobre el mouse inalámbrico"
+  },
+  {
+    "id": 3,
+    "nombre": "Cargador USB-C 20W",
+    "precio": 10,
+    "imagen": "https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA",
+    "descripcion": "Carga rápida compatible con Android y iPhone.",
+    "mensaje": "Hola, quiero info sobre el cargador USB-C 20W"
+  }
+]
