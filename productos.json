@@ -1,26 +1,30 @@
 [
   {
     "id": 1,
-    "nombre": "Auriculares Bluetooth",
-    "precio": 25,
-    "imagen": "https://www.google.com/imgres?q=paisaje&imgurl=https%3A%2F%2Fs1.significados.com%2Ffoto%2Fpaisaje-is-cke.jpg%3Fclass%3Darticle&imgrefurl=https%3A%2F%2Fwww.significados.com%2Fpaisaje%2F&docid=YoTMl9z6aBEb-M&tbnid=ENy7Koha2bj7FM&vet=12ahUKEwjpkO_P0t2NAxWrtoQIHRoVFwIQM3oECBgQAA..i&w=685&h=456&hcb=2&ved=2ahUKEwjpkO_P0t2NAxWrtoQIHRoVFwIQM3oECBgQAA",
-    "descripcion": "Sonido estéreo y conexión estable.",
-    "mensaje": "Hola, estoy interesado en los auriculares Bluetooth"
+    "nombre": "Billetera Clásica Café",
+    "precio": 40000,
+    "imagen_primaria": "images/primaria.jpg",
+    "imagen_secundaria": "images/secundaria.jpg",
+    "descripcion": "Diseño clásico, cuero resistente y múltiples compartimentos.",
+    "mensaje": "Hola, estoy interesado en la billetera. ¿Tienes disponibilidad?"
   },
   {
     "id": 2,
-    "nombre": "Mouse inalámbrico",
-    "precio": 12,
-    "imagen": "https://www.google.com/imgres?q=paisaje&imgurl=https%3A%2F%2Fs1.significados.com%2Ffoto%2Fpaisaje-is-cke.jpg%3Fclass%3Darticle&imgrefurl=https%3A%2F%2Fwww.significados.com%2Fpaisaje%2F&docid=YoTMl9z6aBEb-M&tbnid=ENy7Koha2bj7FM&vet=12ahUKEwjpkO_P0t2NAxWrtoQIHRoVFwIQM3oECBgQAA..i&w=685&h=456&hcb=2&ved=2ahUKEwjpkO_P0t2NAxWrtoQIHRoVFwIQM3oECBgQAA",
-    "descripcion": "Cómodo, diseño ergonómico.",
-    "mensaje": "Hola, me gustaría consultar sobre el mouse inalámbrico"
+    "nombre": "Billetera Negra Minimalista",
+    "precio": 40000,
+    "imagen_primaria": "Iimages/primaria.jpg",
+    "imagen_secundaria": "Iimages/secundaria.jpg",
+    "descripcion": "Diseño clásico, cuero resistente y múltiples compartimentos.",
+    "mensaje": "Hola, estoy interesado en la billetera. ¿Tienes disponibilidad?"
   },
   {
     "id": 3,
-    "nombre": "Cargador USB-C 20W",
-    "precio": 10,
-    "imagen": "https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA",
-    "descripcion": "Carga rápida compatible con Android y iPhone.",
-    "mensaje": "Hola, quiero info sobre el cargador USB-C 20W"
+    "nombre": "Billetera Tipo Tarjetero",
+    "precio": 40000,
+   "imagen_primaria": "Iimages/primaria.jpg",
+    "imagen_secundaria": "Iimages/secundaria.jpg",
+    "descripcion": "Diseño clásico, cuero resistente y múltiples compartimentos.",
+    "mensaje": "Hola, estoy interesado en la billetera. ¿Tienes disponibilidad?"
   }
 ]
+
