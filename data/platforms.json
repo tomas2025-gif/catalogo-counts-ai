@@ -2,57 +2,97 @@
   {
     "name": "ChatGPT Plus",
     "icon": "🤖",
-    "plans": [
-      { "duration": "1 Mes", "price": 25000 },
-      { "duration": "2 Meses", "price": 45000, "save": 5000 },
-      { "duration": "3 Meses", "price": 65000, "save": 10000 }
+    "types": [
+      {
+        "type": "Cuenta Privada (correo personal)",
+        "plans": [
+          { "duration": "1 Mes", "price": 29000 },
+          { "duration": "2 Meses", "price": 58000 },
+          { "duration": "3 Meses", "price": 65000 }
+        ]
+      },
+      {
+        "type": "Cuenta Compartida",
+        "plans": [
+          { "duration": "1 Mes", "price": 18000 },
+          { "duration": "2 Meses", "price": 34000 },
+          { "duration": "3 Meses", "price": 50000 }
+        ]
+      }
     ]
   },
   {
-    "name": "Gemini Advanced",
+    "name": "Gemini Pro + NotebookLM",
     "icon": "✨",
-    "plans": [
-      { "duration": "1 Mes", "price": 22000 },
-      { "duration": "2 Meses", "price": 40000, "save": 4000 },
-      { "duration": "3 Meses", "price": 58000, "save": 8000 }
+    "types": [
+      {
+        "type": "Compartido",
+        "plans": [
+          { "duration": "1 Mes", "price": 15000 },
+          { "duration": "2 Meses", "price": 28000 },
+          { "duration": "3 Meses", "price": 42000 }
+        ]
+      }
     ]
   },
   {
-    "name": "Grok Premium",
-    "icon": "⚡",
-    "plans": [
-      { "duration": "1 Mes", "price": 20000 },
-      { "duration": "2 Meses", "price": 36000, "save": 4000 },
-      { "duration": "3 Meses", "price": 52000, "save": 8000 }
+    "name": "Super Grock",
+    "icon": "🚀",
+    "types": [
+      {
+        "type": "Compartido",
+        "plans": [
+          { "duration": "1 Mes", "price": 18000 },
+          { "duration": "2 Meses", "price": 33000 },
+          { "duration": "3 Meses", "price": 50000 }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Perplexity Pro",
+    "icon": "🧠",
+    "types": [
+      {
+        "type": "Compartido",
+        "plans": [
+          { "duration": "1 Mes", "price": 22000 },
+          { "duration": "2 Meses", "price": 35000 },
+          { "duration": "3 Meses", "price": 50000 }
+        ]
+      }
     ]
   },
   {
     "name": "ChatPDF Pro",
     "icon": "📄",
-    "plans": [
-      { "duration": "1 Mes", "price": 15000 },
-      { "duration": "2 Meses", "price": 26000, "save": 4000 },
-      { "duration": "3 Meses", "price": 37000, "save": 8000 }
+    "types": [
+      {
+        "type": "Compartido",
+        "plans": [
+          { "duration": "1 Mes", "price": 8000 },
+          { "duration": "2 Meses", "price": 14000 },
+          { "duration": "3 Meses", "price": 23000 }
+        ]
+      }
     ]
   },
   {
     "name": "Canva Pro",
     "icon": "🎨",
-    "plans": [
-      { "duration": "1 Mes", "price": 18000 },
-      { "duration": "2 Meses", "price": 32000, "save": 4000 },
-      { "duration": "3 Meses", "price": 46000, "save": 8000 }
-    ]
-  },
-  {
-    "name": "Claude Pro",
-    "icon": "🧠",
-    "plans": [
-      { "duration": "1 Mes", "price": 24000 },
-      { "duration": "2 Meses", "price": 43000, "save": 5000 },
-      { "duration": "3 Meses", "price": 62000, "save": 10000 }
+    "types": [
+      {
+        "type": "Cuenta Privada (correo personal)",
+        "plans": [
+          { "duration": "1 Mes", "price": 14000 },
+          { "duration": "2 Meses", "price": 18000 },
+          { "duration": "3 Meses", "price": 30000 }
+        ]
+      }
     ]
   }
 ]
+
+
 
 
