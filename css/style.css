@@ -1,0 +1,221 @@
+/* === Estilo general inspirado en Google Gemini === */
+
+:root {
+  --blue: #4285f4;
+  --green: #34a853;
+  --yellow: #fbbc05;
+  --red: #ea4335;
+  --bg-dark: #0b0c10;
+  --text-light: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", system-ui, sans-serif;
+  color: var(--text-light);
+  background: radial-gradient(circle at 30% 20%, #1e3a8a, #0b0c10 70%);
+  text-align: center;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 3rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* === Hero section === */
+#hero .icon {
+  background: linear-gradient(135deg, var(--blue), var(--green));
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin: 0 auto 1rem;
+  box-shadow: 0 0 25px var(--blue);
+}
+
+#hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--blue), var(--green), var(--yellow), var(--red));
+  background-size: 300% 300%;
+  animation: gradientMove 6s ease infinite;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#hero p {
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  color: #e2e8f0;
+}
+
+.features span {
+  background: linear-gradient(90deg, var(--blue), var(--green));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 500;
+}
+
+/* === Selector === */
+/* === Selector actualizado estilo Gemini === */
+select {
+  padding: 0.9rem 1.2rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(135deg, rgba(66, 133, 244, 0.25), rgba(26, 35, 126, 0.45));
+  color: #ffffff;
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+  appearance: none; /* oculta el estilo por defecto */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+select:hover {
+  background: linear-gradient(135deg, rgba(66, 133, 244, 0.4), rgba(52, 168, 83, 0.5));
+  box-shadow: 0 0 15px rgba(66, 133, 244, 0.4);
+}
+
+select:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 20px rgba(66, 133, 244, 0.6);
+}
+
+/* Opciones dentro del desplegable */
+option {
+  background-color: #0b0c10;
+  color: white;
+  font-weight: 500;
+  padding: 0.6rem;
+  border: none;
+}
+
+option:hover,
+option:focus {
+  background: linear-gradient(90deg, var(--blue), var(--green));
+  color: white;
+}
+
+
+/* === Plan cards === */
+#plansContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.plan {
+  background: linear-gradient(145deg, rgba(66, 133, 244, 0.3), rgba(26, 35, 126, 0.6));
+  border-radius: 18px;
+  padding: 1.8rem;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 15px rgba(66, 133, 244, 0.25);
+}
+
+.plan:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(66, 133, 244, 0.45);
+}
+
+.plan h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.plan .price {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--yellow);
+}
+
+.plan p {
+  margin: 0.3rem 0;
+  color: #e5e7eb;
+}
+
+/* === Buttons === */
+button.buy {
+  margin-top: 1rem;
+  background: linear-gradient(90deg, var(--blue), var(--green));
+  color: white;
+  padding: 0.9rem 1.1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+button.buy:hover {
+  background: linear-gradient(90deg, var(--green), var(--blue));
+  box-shadow: 0 0 20px rgba(66, 133, 244, 0.5);
+}
+
+/* === How section === */
+#how ol {
+  list-style: none;
+  padding: 0;
+  color: #d1d5db;
+  font-weight: 400;
+}
+
+#how li {
+  margin: 0.8rem 0;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  transition: 0.2s;
+}
+
+#how li:hover {
+  background: linear-gradient(90deg, var(--blue), var(--green));
+  color: white;
+}
+
+/* === Footer === */
+footer {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 2rem;
+  font-size: 1rem;
+  color: #cbd5e1;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer a {
+  color: var(--green);
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: var(--yellow);
+  text-shadow: 0 0 8px var(--green);
+}
+

@@ -2,15 +2,47 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Catálogo</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inteligencia Artificial Premium</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
 </head>
-<body class="bg-gray-100">
-  <div class="container mx-auto px-4 py-6">
-    <h1 class="text-3xl font-bold mb-6 text-center">Catálogo</h1>
-    <div id="productos" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"></div>
-  </div>
-  <script src="cargarProductos.js"></script>
+<body>
+  <section id="hero">
+    <div class="icon"><span>📺</span></div>
+    <h1>Inteligencia Artificial Premium</h1>
+    <p>Accede a las mejores herramientas de IA con descuentos increíbles</p>
+    <div class="features">
+      <span>⚡ Activación inmediata</span>
+      <span>🛡️ 100% Seguro</span>
+      <span>⏰ Soporte 24/7</span>
+    </div>
+  </section>
+
+  <section id="selector">
+    <h2>Selecciona tu Herramienta IA</h2>
+    <select id="platformSelect"></select>
+  </section>
+
+  <section id="plans">
+    <h2>Elige tu Plan</h2>
+    <div id="plansContainer"></div>
+  </section>
+
+  <section id="how">
+    <h2>¿Cómo funciona?</h2>
+    <ol>
+      <li>Selecciona la plataforma que deseas</li>
+      <li>Elige el plan (más meses = más descuento)</li>
+      <li>Haz clic en “Comprar por WhatsApp”</li>
+      <li>Realiza el pago y recibe tu acceso al instante</li>
+    </ol>
+  </section>
+
+  <footer>
+    <p>¿Tienes dudas? Contáctanos por WhatsApp</p>
+    <a href="#" id="contact">📱 +57 318 253 2668</a>
+  </footer>
 </body>
 </html>
+
