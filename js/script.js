@@ -2,7 +2,7 @@ const phoneNumber = "573182532667";
 
 // 🎯 Promociones específicas por plataforma, tipo y plan
 // Puedes añadir o quitar según necesites
-const promociones = [
+const promociones = [/*
   {
     plataforma: "ChatGPT Plus",
     tipo: "Cuenta Privada (correo personal)",
@@ -44,7 +44,7 @@ const promociones = [
     tipo: "Compartido",
     duration: "1 Mes",
     descuento: 17
-  }
+  }*/
 ];
 
 // Referencias DOM
